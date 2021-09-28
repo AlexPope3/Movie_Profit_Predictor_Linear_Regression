@@ -1,19 +1,11 @@
 The goal of this project is to find the best determinants of box office revenue, and how those determinants are related to one another.
 
-![image](https://user-images.githubusercontent.com/86431477/135171394-d305a89f-f9c7-499f-9fdb-8be512405861.png)
 
 
 
 
 
-
-
-
-
-
-
-
-
+![Pairplot](https://user-images.githubusercontent.com/86431477/135171455-2ab4b680-ae42-44d8-bd1f-67c4c2ecbda9.png)
 
 
 
