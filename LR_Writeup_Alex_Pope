@@ -1,14 +1,18 @@
 Abstract:
 
-The goal of this project was to determine the best predictors of box office movie profit while focusing solely on non-revenue related features. Identifying key features to anticipate the highest profit generating movies at the box office is invaluable to stakeholders and potential investors of movie production companies. Box office profit was most sensitive to changes in movie run time, release year, rating, and budget.
+The goal of this project was to determine the best predictors of box office movie profit while focusing solely on non-revenue related features. 
+Identifying key features to anticipate the highest profit generating movies at the box office is invaluable to stakeholders and potential investors 
+of movie production companies. Box office profit was most sensitive to changes in movie run time, release year, rating, and budget.
 
 Design:
 
-Linear regression is an ideal technique to study and evaluate trends that lead to successful movies. Movie profit is a continuous variable of primary interest. My analysis involved running a series of linear regression models to optimize predictive power and minimize error.
+Linear regression is an ideal technique to study and evaluate trends that lead to successful movies. Movie profit is a continuous variable of primary interest. 
+My analysis involved running a series of linear regression models to optimize predictive power and minimize error.
 
 Data: 
 
-The dataset for this analysis was scraped from boxofficemojo.com and contains numerical and categorical information of the top 1,000 grossing movies. Movies in this data set were released between 1937 and 2021. 
+The dataset for this analysis was scraped from boxofficemojo.com and contains numerical and categorical information of the top 1,000 grossing movies. 
+Movies in this data set were released between 1937 and 2021. 
 
 Algorithms:
 
@@ -16,7 +20,9 @@ Feature engineering
 •	Categorical variables were converted to binary dummy variables
 •	Squared model features 
 
-Model Evaluation and Selection: Data was broken up into two portions, with 80% reserved for a cross-validation training process and 20% for final testing evaluation. All model scores were calculated with a 5-fold cross validation process on the training data, and then evaluated on the test data. This process was used to rigorously evaluate the predictive power of various types of linear regression models including simple regression, lasso regression, and ridge regression. 
+Model Evaluation and Selection: Data was broken up into two portions, with 80% reserved for a cross-validation training process and 20% for final testing evaluation. 
+All model scores were calculated with a 5-fold cross validation process on the training data, and then evaluated on the test data. This process was used to rigorously 
+evaluate the predictive power of various types of linear regression models including simple regression, lasso regression, and ridge regression. 
 
 Cross-validation (squared features):
 •	Simple linear regression model
